@@ -95,7 +95,7 @@
 		3B2295261EB0379300B9CD92 /* AYMenuList */ = {
 			isa = PBXGroup;
 			children = (
-				3B22954C1EB037B200B9CD92 /* MenuList */,
+				3B22954C1EB037B200B9CD92 /* MenuView */,
 				3B22952A1EB0379300B9CD92 /* AppDelegate.h */,
 				3B22952B1EB0379300B9CD92 /* AppDelegate.m */,
 				3B22952D1EB0379300B9CD92 /* ViewController.h */,
@@ -126,7 +126,7 @@
 			path = AYMenuListUITests;
 			sourceTree = "<group>";
 		};
-		3B22954C1EB037B200B9CD92 /* MenuList */ = {
+		3B22954C1EB037B200B9CD92 /* MenuView */ = {
 			isa = PBXGroup;
 			children = (
 				3B22954D1EB0389B00B9CD92 /* AYMenuItem.h */,
@@ -139,6 +139,7 @@
 				3B22955C1EB0903500B9CD92 /* AYMenuCell.m */,
 				3B22955D1EB0903500B9CD92 /* AYMenuCell.xib */,
 			);
+			name = MenuView;
 			path = MenuList;
 			sourceTree = "<group>";
 		};
