@@ -75,6 +75,8 @@
         return;
     }
     
+    
+    //此时本菜单已经处于关闭状态
     if (item.isSubItemsOpen) {
         NSArray *arr = [self.menuData ay_removeMenuAtIndexPaths:item];
         if (arr.count > 0) {
@@ -86,7 +88,16 @@
             [tableView insertRowsAtIndexPaths:arr withRowAnimation:UITableViewRowAnimationTop];
         }
     }
-
+    
+    //此时本菜单已经处于打开状态
+    if (![self.delegate respondsToSelector:@selector(ay_menuView:tableView:cellForRowWithMenuItem:)]) {
+        AYMenuCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+        if (item.isSubItemsOpen) {
+            cell.menuImgView.transform = CGAffineTransformMakeRotation(M_PI_2);
+        }else{
+            cell.menuImgView.transform = CGAffineTransformMakeRotation(0);
+        }
+    }
 }
 
 

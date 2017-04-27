@@ -26,11 +26,24 @@
     _item = item;
     _titleLabel.text = item.title;
     _leading.constant = 30 * item.level;
+    if (_item.isSubItemsOpen) {
+        _menuImgView.transform = CGAffineTransformMakeRotation(M_PI_2);
+    }else{
+        _menuImgView.transform = CGAffineTransformMakeRotation(0);
+    }
+    
 }
 
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
+    
+           
+        NSLog(@"%d",_item.isSubItemsOpen);
+        
+    
+    
+    
 }
 
 @end

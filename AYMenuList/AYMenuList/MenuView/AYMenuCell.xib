@@ -19,22 +19,31 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xDb-uA-Cik">
-                        <rect key="frame" x="10" y="40" width="42" height="21"/>
+                        <rect key="frame" x="48" y="40" width="42" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qj.png" translatesAutoresizingMaskIntoConstraints="NO" id="8Rx-eN-vmP">
+                        <rect key="frame" x="30" y="43" width="8" height="14"/>
+                    </imageView>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="xDb-uA-Cik" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Fxd-gA-XJh"/>
-                    <constraint firstItem="xDb-uA-Cik" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Les-xJ-UCd"/>
+                    <constraint firstItem="8Rx-eN-vmP" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="9tM-19-SFj"/>
+                    <constraint firstItem="xDb-uA-Cik" firstAttribute="leading" secondItem="8Rx-eN-vmP" secondAttribute="trailing" constant="10" id="AOo-Vu-BhX"/>
+                    <constraint firstItem="xDb-uA-Cik" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="hcB-bJ-O7z"/>
+                    <constraint firstItem="8Rx-eN-vmP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="pgY-KL-cW7"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
-                <outlet property="leading" destination="Les-xJ-UCd" id="YJ1-cG-oVu"/>
+                <outlet property="leading" destination="pgY-KL-cW7" id="2fa-Ab-vFO"/>
+                <outlet property="menuImgView" destination="8Rx-eN-vmP" id="adf-Iz-Gbx"/>
                 <outlet property="titleLabel" destination="xDb-uA-Cik" id="7Bj-e7-7Pw"/>
             </connections>
             <point key="canvasLocation" x="71" y="83"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="qj.png" width="8" height="14"/>
+    </resources>
 </document>

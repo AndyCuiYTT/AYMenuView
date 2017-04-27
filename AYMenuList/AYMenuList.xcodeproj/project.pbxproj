@@ -14,11 +14,13 @@
 		3B2295341EB0379300B9CD92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B2295331EB0379300B9CD92 /* Assets.xcassets */; };
 		3B2295371EB0379300B9CD92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2295351EB0379300B9CD92 /* LaunchScreen.storyboard */; };
 		3B2295421EB0379300B9CD92 /* AYMenuListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2295411EB0379300B9CD92 /* AYMenuListUITests.m */; };
-		3B22954F1EB0389B00B9CD92 /* AYMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B22954E1EB0389B00B9CD92 /* AYMenuItem.m */; };
-		3B2295521EB03F5300B9CD92 /* AYMenuData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2295511EB03F5300B9CD92 /* AYMenuData.m */; };
-		3B2295551EB0752700B9CD92 /* AYMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2295541EB0752700B9CD92 /* AYMenuView.m */; };
-		3B22955E1EB0903500B9CD92 /* AYMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B22955C1EB0903500B9CD92 /* AYMenuCell.m */; };
-		3B22955F1EB0903500B9CD92 /* AYMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B22955D1EB0903500B9CD92 /* AYMenuCell.xib */; };
+		3B22956B1EB0A5A900B9CD92 /* AYMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2295631EB0A5A900B9CD92 /* AYMenuCell.m */; };
+		3B22956C1EB0A5A900B9CD92 /* AYMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B2295641EB0A5A900B9CD92 /* AYMenuCell.xib */; };
+		3B22956D1EB0A5A900B9CD92 /* AYMenuData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2295661EB0A5A900B9CD92 /* AYMenuData.m */; };
+		3B22956E1EB0A5A900B9CD92 /* AYMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2295681EB0A5A900B9CD92 /* AYMenuItem.m */; };
+		3B22956F1EB0A5A900B9CD92 /* AYMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B22956A1EB0A5A900B9CD92 /* AYMenuView.m */; };
+		3B2295731EB1881400B9CD92 /* qj@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2295711EB1881400B9CD92 /* qj@2x.png */; };
+		3B2295741EB1881400B9CD92 /* qj@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2295721EB1881400B9CD92 /* qj@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,15 +47,17 @@
 		3B22953D1EB0379300B9CD92 /* AYMenuListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AYMenuListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B2295411EB0379300B9CD92 /* AYMenuListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYMenuListUITests.m; sourceTree = "<group>"; };
 		3B2295431EB0379300B9CD92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B22954D1EB0389B00B9CD92 /* AYMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYMenuItem.h; sourceTree = "<group>"; };
-		3B22954E1EB0389B00B9CD92 /* AYMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYMenuItem.m; sourceTree = "<group>"; };
-		3B2295501EB03F5300B9CD92 /* AYMenuData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYMenuData.h; sourceTree = "<group>"; };
-		3B2295511EB03F5300B9CD92 /* AYMenuData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYMenuData.m; sourceTree = "<group>"; };
-		3B2295531EB0752700B9CD92 /* AYMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYMenuView.h; sourceTree = "<group>"; };
-		3B2295541EB0752700B9CD92 /* AYMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYMenuView.m; sourceTree = "<group>"; };
-		3B22955B1EB0903500B9CD92 /* AYMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYMenuCell.h; sourceTree = "<group>"; };
-		3B22955C1EB0903500B9CD92 /* AYMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYMenuCell.m; sourceTree = "<group>"; };
-		3B22955D1EB0903500B9CD92 /* AYMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AYMenuCell.xib; sourceTree = "<group>"; };
+		3B2295621EB0A5A900B9CD92 /* AYMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYMenuCell.h; sourceTree = "<group>"; };
+		3B2295631EB0A5A900B9CD92 /* AYMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYMenuCell.m; sourceTree = "<group>"; };
+		3B2295641EB0A5A900B9CD92 /* AYMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AYMenuCell.xib; sourceTree = "<group>"; };
+		3B2295651EB0A5A900B9CD92 /* AYMenuData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYMenuData.h; sourceTree = "<group>"; };
+		3B2295661EB0A5A900B9CD92 /* AYMenuData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYMenuData.m; sourceTree = "<group>"; };
+		3B2295671EB0A5A900B9CD92 /* AYMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYMenuItem.h; sourceTree = "<group>"; };
+		3B2295681EB0A5A900B9CD92 /* AYMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYMenuItem.m; sourceTree = "<group>"; };
+		3B2295691EB0A5A900B9CD92 /* AYMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYMenuView.h; sourceTree = "<group>"; };
+		3B22956A1EB0A5A900B9CD92 /* AYMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYMenuView.m; sourceTree = "<group>"; };
+		3B2295711EB1881400B9CD92 /* qj@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qj@2x.png"; sourceTree = "<group>"; };
+		3B2295721EB1881400B9CD92 /* qj@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qj@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +99,7 @@
 		3B2295261EB0379300B9CD92 /* AYMenuList */ = {
 			isa = PBXGroup;
 			children = (
-				3B22954C1EB037B200B9CD92 /* MenuView */,
+				3B2295611EB0A5A900B9CD92 /* MenuView */,
 				3B22952A1EB0379300B9CD92 /* AppDelegate.h */,
 				3B22952B1EB0379300B9CD92 /* AppDelegate.m */,
 				3B22952D1EB0379300B9CD92 /* ViewController.h */,
@@ -126,21 +130,30 @@
 			path = AYMenuListUITests;
 			sourceTree = "<group>";
 		};
-		3B22954C1EB037B200B9CD92 /* MenuView */ = {
+		3B2295611EB0A5A900B9CD92 /* MenuView */ = {
 			isa = PBXGroup;
 			children = (
-				3B22954D1EB0389B00B9CD92 /* AYMenuItem.h */,
-				3B22954E1EB0389B00B9CD92 /* AYMenuItem.m */,
-				3B2295501EB03F5300B9CD92 /* AYMenuData.h */,
-				3B2295511EB03F5300B9CD92 /* AYMenuData.m */,
-				3B2295531EB0752700B9CD92 /* AYMenuView.h */,
-				3B2295541EB0752700B9CD92 /* AYMenuView.m */,
-				3B22955B1EB0903500B9CD92 /* AYMenuCell.h */,
-				3B22955C1EB0903500B9CD92 /* AYMenuCell.m */,
-				3B22955D1EB0903500B9CD92 /* AYMenuCell.xib */,
+				3B2295701EB1881400B9CD92 /* Img */,
+				3B2295621EB0A5A900B9CD92 /* AYMenuCell.h */,
+				3B2295631EB0A5A900B9CD92 /* AYMenuCell.m */,
+				3B2295641EB0A5A900B9CD92 /* AYMenuCell.xib */,
+				3B2295651EB0A5A900B9CD92 /* AYMenuData.h */,
+				3B2295661EB0A5A900B9CD92 /* AYMenuData.m */,
+				3B2295671EB0A5A900B9CD92 /* AYMenuItem.h */,
+				3B2295681EB0A5A900B9CD92 /* AYMenuItem.m */,
+				3B2295691EB0A5A900B9CD92 /* AYMenuView.h */,
+				3B22956A1EB0A5A900B9CD92 /* AYMenuView.m */,
 			);
-			name = MenuView;
-			path = MenuList;
+			path = MenuView;
+			sourceTree = "<group>";
+		};
+		3B2295701EB1881400B9CD92 /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				3B2295711EB1881400B9CD92 /* qj@2x.png */,
+				3B2295721EB1881400B9CD92 /* qj@3x.png */,
+			);
+			path = Img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,9 +238,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2295741EB1881400B9CD92 /* qj@3x.png in Resources */,
 				3B2295371EB0379300B9CD92 /* LaunchScreen.storyboard in Resources */,
+				3B2295731EB1881400B9CD92 /* qj@2x.png in Resources */,
 				3B2295341EB0379300B9CD92 /* Assets.xcassets in Resources */,
-				3B22955F1EB0903500B9CD92 /* AYMenuCell.xib in Resources */,
+				3B22956C1EB0A5A900B9CD92 /* AYMenuCell.xib in Resources */,
 				3B2295321EB0379300B9CD92 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,11 +262,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B22952F1EB0379300B9CD92 /* ViewController.m in Sources */,
-				3B22954F1EB0389B00B9CD92 /* AYMenuItem.m in Sources */,
-				3B2295521EB03F5300B9CD92 /* AYMenuData.m in Sources */,
-				3B2295551EB0752700B9CD92 /* AYMenuView.m in Sources */,
-				3B22955E1EB0903500B9CD92 /* AYMenuCell.m in Sources */,
+				3B22956E1EB0A5A900B9CD92 /* AYMenuItem.m in Sources */,
 				3B22952C1EB0379300B9CD92 /* AppDelegate.m in Sources */,
+				3B22956D1EB0A5A900B9CD92 /* AYMenuData.m in Sources */,
+				3B22956F1EB0A5A900B9CD92 /* AYMenuView.m in Sources */,
+				3B22956B1EB0A5A900B9CD92 /* AYMenuCell.m in Sources */,
 				3B2295291EB0379300B9CD92 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

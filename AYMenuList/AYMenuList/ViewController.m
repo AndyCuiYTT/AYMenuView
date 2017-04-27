@@ -36,7 +36,7 @@
         AYMenuItem *rootItem = [[AYMenuItem alloc] init];
         rootItem.title = [NSString stringWithFormat:@"第一级菜单：%d",i];
         rootItem.level = 1;
-        rootItem.isSubCascadeOpen = YES;
+        rootItem.isSubCascadeOpen = NO;
         rootItem.isSubItemsOpen = NO;
         NSMutableArray *subArray = [NSMutableArray array];
         for (int j = 0; j < 7 ; j++) {
@@ -70,7 +70,7 @@
 }
 
 - (void)ay_menuView:(AYMenuView *)menuView didDeselectRowAtIndexPath:(NSIndexPath *)indexPaths{
-    NSLog(@"%@",indexPaths);
+//    NSLog(@"%@",indexPaths);
 }
 
 - (NSMutableArray *)ay_dataArrayInMenuView:(AYMenuView *)menuView{

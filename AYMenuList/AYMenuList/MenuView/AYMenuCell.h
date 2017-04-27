@@ -13,4 +13,7 @@
 
 @property (nonatomic , strong)AYMenuItem *item;
 
+@property (weak, nonatomic) IBOutlet UIImageView *menuImgView;
+
+
 @end
